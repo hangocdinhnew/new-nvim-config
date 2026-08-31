@@ -20,8 +20,8 @@ vim.lsp.config("rust-analyzer", {
   },
 })
 
-vim.lsp.config("neocmakelsp", {})
+vim.lsp.config("neocmake", {})
 
 vim.lsp.enable("clangd")
 vim.lsp.enable("rust-analyzer")
-vim.lsp.enable("neocmakelsp")
+vim.lsp.enable("neocmake")
