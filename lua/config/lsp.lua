@@ -20,7 +20,7 @@ vim.lsp.config("rust-analyzer", {
   },
 })
 
-vim.lua.config("neocmakelsp", {})
+vim.lsp.config("neocmakelsp", {})
 
 vim.lsp.enable("clangd")
 vim.lsp.enable("rust-analyzer")
