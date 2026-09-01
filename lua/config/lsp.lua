@@ -22,6 +22,9 @@ vim.lsp.config("rust_analyzer", {
 
 vim.lsp.config("neocmake", {})
 
+vim.lsp.config("wgsl_analyzer", {})
+
 vim.lsp.enable("clangd")
 vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("neocmake")
+vim.lsp.enable("wgsl_analyzer")
