@@ -28,5 +28,6 @@ vim.lsp.enable("clangd")
 vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("neocmake")
 vim.lsp.enable("wgsl_analyzer")
+vim.lsp.enable("roslyn_ls")
 
 vim.lsp.enable("qmlls")
