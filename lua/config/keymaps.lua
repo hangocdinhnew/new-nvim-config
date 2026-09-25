@@ -1,3 +1,3 @@
 vim.keymap.set("i", "<Tab>", function()
-  vim.cmd("normal! =G")
+  vim.cmd("normal! ==")
 end)
