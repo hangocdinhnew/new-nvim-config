@@ -33,3 +33,4 @@ vim.lsp.enable("roslyn_ls")
 vim.lsp.enable("qmlls")
 
 vim.lsp.enable("eslint")
+vim.lsp.enable("vtsls")
