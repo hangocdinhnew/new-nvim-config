@@ -31,3 +31,5 @@ vim.lsp.enable("wgsl_analyzer")
 vim.lsp.enable("roslyn_ls")
 
 vim.lsp.enable("qmlls")
+
+vim.lsp.enable("eslint")
