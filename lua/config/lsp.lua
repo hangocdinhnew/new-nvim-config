@@ -34,3 +34,5 @@ vim.lsp.enable("qmlls")
 
 vim.lsp.enable("eslint")
 vim.lsp.enable("vtsls")
+
+vim.lsp.enable("zls")
