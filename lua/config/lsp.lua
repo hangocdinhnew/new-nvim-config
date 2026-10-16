@@ -37,3 +37,4 @@ vim.lsp.enable("vtsls")
 
 vim.lsp.enable("zls")
 vim.lsp.enable("ols")
+vim.lsp.enable("hls")
