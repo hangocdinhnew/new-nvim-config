@@ -38,3 +38,13 @@ vim.lsp.enable("vtsls")
 vim.lsp.enable("zls")
 vim.lsp.enable("ols")
 vim.lsp.enable("hls")
+
+vim.lsp.enable("pyright")
+
+vim.lsp.enable("ada_ls")
+
+vim.lsp.enable("nim_langserver")
+
+vim.lsp.enable("dartls")
+
+vim.lsp.enable("sourcekit")
