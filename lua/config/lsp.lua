@@ -24,6 +24,12 @@ vim.lsp.config("neocmake", {})
 
 vim.lsp.config("wgsl_analyzer", {})
 
+vim.lsp.config("zigscient", {
+  cmd = { "zigscient", "--enable-stderr-logs" },
+  filetypes = { "zig" },
+  root_markers = { "build.zig", ".git" },
+})
+
 vim.lsp.enable("clangd")
 vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("neocmake")
@@ -35,7 +41,6 @@ vim.lsp.enable("qmlls")
 vim.lsp.enable("eslint")
 vim.lsp.enable("vtsls")
 
-vim.lsp.enable("zls")
 vim.lsp.enable("ols")
 vim.lsp.enable("hls")
 
@@ -48,3 +53,4 @@ vim.lsp.enable("nim_langserver")
 vim.lsp.enable("dartls")
 
 vim.lsp.enable("sourcekit")
+vim.lsp.enable("zigscient")
